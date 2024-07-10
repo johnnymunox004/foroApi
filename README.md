@@ -1,4 +1,5 @@
 FORO HUB CHALLENGE
+file:///C:/Users/USER/Desktop/ForoHubApi/assets/balloons-4111586_1280.png
 Una plataforma donde los usuarios pueden plantear sus preguntas sobre determinados temas, creada con una API REST usando Spring para gestionar datos y relaciones entre usuarios y respuestas de un tema.
 
 Nuestra API se centrará específicamente en los tópicos, y debe permitir a los usuarios:
@@ -42,7 +43,7 @@ MySQL Installer
 Agregar algunas dependencias en nuestro pom.xml (Validation, MySQL Driver, Spring Data JPA, Flyway Migration).
 Crear un tópico con la siguiente información: id, título, mensaje, fecha de creación, status (estado del tópico), autor, curso.
 Diagrama de Base de datos. Nota: se representa una base de datos más completa pero no se implementan todas las tablas presentes en él - es suficiente centrarse en la tabla de tópicos.
-
+file:///C:/Users/USER/Desktop/ForoHubApi/assets/diagrama_base_de_datos_forohub.png
 
 CRUD (CREATE, READ, UPDATE, DELETE):
 La API cuenta con:
@@ -57,7 +58,7 @@ Las pruebas de las funcionalidades de la API pueden realizarse utilizando alguna
 
 Postman
 Insomnia
-
+file:///C:/Users/USER/Desktop/ForoHubApi/assets/Registro_Topico.png
 
 Autenticación y configuración de Seguridad:
 Solo los usuarios autenticados pueden interactuar con la API. Para configurar la autenticación se utilizó Spring Security. Se implementó un mecanismo de autenticación en la API, modificando la estructura de la base de datos para incluir una nueva tabla para almacenar los datos de autenticación de los usuarios. Se utilizó Flyway Migration para la creación de migraciones.
