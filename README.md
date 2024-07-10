@@ -55,7 +55,7 @@ Agregar algunas dependencias en nuestro `pom.xml` (Validation, MySQL Driver, Spr
 
 Crear un tópico con la siguiente información: id, título, mensaje, fecha de creación, status (estado del tópico), autor, curso.
 
-![Diagrama de Base de datos](file:///C:/Users/USER/Desktop/ForoHubApi/assets/diagrama_base_de_datos_forohub.png)
+![Diagrama de Base de datos](https://raw.githubusercontent.com/johnnymunox004/foroApi/main/assets/diagrama_base_de_datos_forohub.png)
 
 Nota: se representa una base de datos más completa pero no se implementan todas las tablas presentes en él - es suficiente centrarse en la tabla de tópicos.
 
@@ -76,7 +76,7 @@ Las pruebas de las funcionalidades de la API pueden realizarse utilizando alguna
 - [Postman](https://www.postman.com/)
 - [Insomnia](https://insomnia.rest/)
 
-![Registro Tópico](file:///C:/Users/USER/Desktop/ForoHubApi/assets/Registro_Topico.png)
+![Registro Tópico](https://raw.githubusercontent.com/johnnymunox004/foroApi/main/assets/Registro_Topico.png)
 
 ## Autenticación y configuración de Seguridad:
 
